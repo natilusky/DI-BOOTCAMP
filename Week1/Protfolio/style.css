@@ -1,0 +1,30 @@
+#newHr {
+  color: black;
+  border: 3px solid;
+  margin: 40px;
+}
+.profileimg{
+	border-radius: 50%;
+	border-style: dashed;
+}
+.imgProt{
+	width: 400px;
+	height: 250px;
+}
+.blog{
+	text-align: center;
+}
+
+hr{
+	margin: 0px;
+	padding: 0px;
+}
+.kav{
+	width: 250px;
+}
+h3{
+	padding-top: 10px;
+}
+p{
+	font-size: 18px;
+}

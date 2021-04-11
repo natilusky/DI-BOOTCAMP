@@ -1,0 +1,60 @@
+
+    .header { grid-area: header; }
+    .menu { grid-area: menu; }
+    .about { grid-area: about; }
+    .education { grid-area: education; }
+    .exp { grid-area: exp; }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+      "header header header header"
+      "menu about about about"
+      "menu education education education"
+      "menu exp exp exp";
+      grid-gap: 3px;
+      /*background-color: #2867B2;*/
+      padding: 5px;
+      height: 100vh;
+    }
+
+    .grid-container > div {
+      /*background-color: rgba(255, 255, 255, 0.7);*/
+      /* text-align: center;*/
+      padding: 20px;
+      font-size: 30px;
+    }
+    .header{
+      text-align: center;
+        background-color: rgb(47, 58, 62);
+        color: rgb(255, 86, 89);
+    }
+    .menu{
+      color: rgb(47, 58, 62);
+   background-color: rgb(255, 86, 89);
+    }
+    .exp .education .about{
+      background-color: white;
+      color: rgb(47, 58, 62);
+      font-size: 10px;
+}
+    img {
+  border-radius: 50%;
+  border: 2px dashed rgb(255, 86, 89);
+  float: left;
+}
+h3{
+  color: rgb(47, 58, 62);
+  padding: 0px;
+  margin: 0px;
+  text-decoration: underline;
+ font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 23px;
+  margin-top:  2px;
+  font-family: 'Karla', sans-serif;
+}
+}
