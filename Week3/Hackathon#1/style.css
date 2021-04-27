@@ -1,0 +1,137 @@
+body{
+    background-image: url(backgreen.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wheel{
+  width: 500px;
+  height: 500px;
+}
+
+    .rollet { grid-area: rollet; }
+    .control { grid-area: control; }
+    .grid-number { grid-area: number; }
+    .about { grid-area: about; }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+      "about control rollet"
+      "number number number";
+      grid-gap: 50px;
+      padding: 5px;
+      height: 100vh;
+    }
+
+.grid-number {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  background-color: rgb(0, 0, 0);
+  padding: 7px;
+  color: #ffff;
+}
+.grid-item {
+  border: 1px solid #ffff;
+  padding: 35px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#red-item{
+  background-color: rgb(221, 0, 15);
+}
+#black-item{
+  background-color: rgb(0, 0, 0);
+}
+#black-item:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#red-item:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.selected {
+    opacity: 0.5;
+}
+.clear {
+    border: 2px solid;
+    color: #333;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+}
+.clear:hover {
+    background-color: #fff;
+}
+
+.bet {
+    border: 2px solid;
+    color: #333;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+}
+.bet:hover {
+    background-color: #fff;
+}
+.rollet{
+ position: relative;
+  text-align: center;
+  color: white;
+  font-size: 6em;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.control{
+  background-color: rgba(223, 223, 223, 0.5);
+   border-radius: 25px;
+ position: relative;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+font-family: 'Roboto', sans-serif;
+font-size: 2em
+
+}
+
+/*form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+form{
+  padding: 30px;
+}
+.about{
+    background-color: rgba(223, 223, 223, 0.5);
+ position: relative;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+
+}
