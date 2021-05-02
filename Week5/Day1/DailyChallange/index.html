@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week 5 Day 1 Daily Challenge : HTML Form</title>
+</head>
+<body>
+	<form name="frm" method="post" onsubmit="return jsonInput()">
+		<input type="text" name="firstname" placeholder="First name">
+		<input type="text" name="lastname" placeholder="Last name">
+		<input id="submit" type="submit">
+	</form>
+	<script>
+	const jsonInput = () => {
+	let frm = document.forms.frm;
+	let firstName = frm.elements.firstname.value
+	let lastName = frm.elements.lastname.value
+	let obj = {
+		firstName,
+		lastName
+	}
+	console.log(JSON.stringify(obj));
+	return false;
+}
+	</script>
+</body>
+</html>
