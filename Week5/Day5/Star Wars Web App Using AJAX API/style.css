@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;  
+    
+}
+
+  .info-container{
+    border: 5px solid yellow;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 25px;
+    width: 600px;
+    font-size: 1.5em;
+  }
+  .wrapper{
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    
+  }
+
+  #logo{
+      width: 500px;
+      height: 220px;
+      display: inline-block;
+      text-align: center;
+  }
+
+  #button {
+    cursor: pointer;
+    background-color: rgb(255, 255, 147);
+    color: black;
+    border: 2px solid yellow;
+    transition-duration: 1.5s;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.6em;
+  }
+
+  #button:hover {
+    background-color: yellow; /* Green */
+    border: black;
+  }
