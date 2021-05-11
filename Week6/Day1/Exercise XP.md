@@ -7,11 +7,13 @@ CREATE DATABASE public;
 ### 2.Add two tables:
 ```
 CREATE TABLE items (
+	item_id SERIAL PRIMARY KEY,
 	item VARCHAR(255) UNIQUE NOT NULL,
 	price INTEGER NOT NULL
 	);
 	
 CREATE TABLE customers (
+	customer_id SERIAL PRIMARY KEY,
 	first_name TEXT,
 	last_name TEXT
 	);
