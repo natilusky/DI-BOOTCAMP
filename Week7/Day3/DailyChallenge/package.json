@@ -1,0 +1,19 @@
+{
+  "name": "DailyChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fs.js",
+  "dependencies": {
+    "clone-response": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon fs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
