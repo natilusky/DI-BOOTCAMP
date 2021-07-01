@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Week9/daily_challenge_memory_game/static/css/main.3d8a944d.chunk.css",
+    "main.js": "/Week9/daily_challenge_memory_game/static/js/main.c05be752.chunk.js",
+    "main.js.map": "/Week9/daily_challenge_memory_game/static/js/main.c05be752.chunk.js.map",
+    "runtime-main.js": "/Week9/daily_challenge_memory_game/static/js/runtime-main.e2dc3c1b.js",
+    "runtime-main.js.map": "/Week9/daily_challenge_memory_game/static/js/runtime-main.e2dc3c1b.js.map",
+    "static/css/2.c1f4f5f4.chunk.css": "/Week9/daily_challenge_memory_game/static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.faac1747.chunk.js": "/Week9/daily_challenge_memory_game/static/js/2.faac1747.chunk.js",
+    "static/js/2.faac1747.chunk.js.map": "/Week9/daily_challenge_memory_game/static/js/2.faac1747.chunk.js.map",
+    "static/js/3.54eae677.chunk.js": "/Week9/daily_challenge_memory_game/static/js/3.54eae677.chunk.js",
+    "static/js/3.54eae677.chunk.js.map": "/Week9/daily_challenge_memory_game/static/js/3.54eae677.chunk.js.map",
+    "index.html": "/Week9/daily_challenge_memory_game/index.html",
+    "static/css/2.c1f4f5f4.chunk.css.map": "/Week9/daily_challenge_memory_game/static/css/2.c1f4f5f4.chunk.css.map",
+    "static/css/main.3d8a944d.chunk.css.map": "/Week9/daily_challenge_memory_game/static/css/main.3d8a944d.chunk.css.map",
+    "static/js/2.faac1747.chunk.js.LICENSE.txt": "/Week9/daily_challenge_memory_game/static/js/2.faac1747.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2dc3c1b.js",
+    "static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.faac1747.chunk.js",
+    "static/css/main.3d8a944d.chunk.css",
+    "static/js/main.c05be752.chunk.js"
+  ]
+}
